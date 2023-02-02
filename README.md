@@ -4,8 +4,8 @@ This is a solution to the [Build order sumamry](https://www.frontendmentor.io/ch
 
 ### Links
 
-- Solution URL: [Click here](not available yet)
-- Live Site URL: [Click here](not yet available)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/exercise3-build-order-summary-component-MN3FtUjDyH)
+- Live Site URL: [Click here](https://peppy-praline-afe681.netlify.app/)
 
 ### Created with
 
