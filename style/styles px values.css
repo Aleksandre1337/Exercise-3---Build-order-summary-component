@@ -1,0 +1,150 @@
+body {
+    font-family: 'Red Hat Display';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #d6e1ff, #d9e3ff, #dbe4ff, #dee6ff, #e0e8ff);
+    text-align: center;
+  }
+
+.card {
+    height: 697px;
+    width: 450px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    border-radius: 20px;
+}
+
+section img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 45px;
+}
+
+article h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    color: #1F2E55;
+    margin-bottom: 17px;
+}
+
+article p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #717FA6;
+    margin-bottom: 20px;
+    margin-right: 48px;
+    margin-left: 48px;
+}
+
+.subscription {
+    width: 354px;
+    height: 98px;
+    background: #F7F9FF;
+    border-radius: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.subscription img {
+    width: 48px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 24px;
+    margin-right: -10px;
+}
+
+.subscription p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #717FA6;
+}
+
+.subscription h2 {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2E55;
+    white-space: nowrap
+}
+
+.subscription button{
+    color: #382AE1;
+    display: block;
+    background-color: transparent;
+    border: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    margin-right: 24px;
+}
+
+.subcontent {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.subscription button:hover {
+    cursor: pointer;
+    color: #766CF1;
+}
+
+#pay {
+    margin-top: 32px;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+    background-color: #382AE1;
+    border-radius: 11px;
+    box-shadow: 0px 2rem 2rem rgb(56 42 225 / 19%);
+    line-height: 20px;
+    width: 354px;
+    height: 50px;
+    text-align: center;
+    border: none;
+}
+
+#pay:hover {
+    background: #766CF1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+#cancel {
+    margin-top: 32px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+}
+
+#cancel:hover {
+    color: #1F2E55;
+    cursor: pointer;
+}
